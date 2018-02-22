@@ -10,4 +10,4 @@ install:
 script:
  # - $(npm bin)/cypress run --record
   
-  - cypress run --record --key CYPRESS_RECORD_KEY
+ - cypress run --record --key aa8279f3-afd5-4aca-829d-18ed7a2ccf9f
