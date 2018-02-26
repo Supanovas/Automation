@@ -8,9 +8,9 @@ cache:
 install:
   - npm install
 script:
-#  - $(npm bin)/cypress run --record key -- aa8279f3-afd5-4aca-829d-18ed7a2ccf9f
+ - $(npm bin)/cypress run --record key -- aa8279f3-afd5-4aca-829d-18ed7a2ccf9f
   
-   - $(npm bin)/cypress run -- --spec cypress/integration/simple_spec.js --record --key aa8279f3-afd5-4aca-829d-18ed7a2ccf9f
+ #  - $(npm bin)/cypress run -- --spec cypress/integration/simple_spec.js --record --key aa8279f3-afd5-4aca-829d-18ed7a2ccf9f
   
   
   
